@@ -49,6 +49,29 @@ h2 {
     font-style: italic;
 }
 
+.socials-img {
+    height: 20px;
+    width: 20px;
+    margin: 0 0.5rem;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.footer-container {
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
 /*
 #########################
 Home page
@@ -80,13 +103,4 @@ Home page
     display: block;
     object-fit: cover; 
     border-radius: 2rem;
-}
-
-
-.footer-container {
-    background-color:white;
-    display: flex;
-    justify-content: center;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
 }
