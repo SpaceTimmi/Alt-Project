@@ -1,0 +1,56 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.paragraph {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: large;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+
+.logo {
+    margin-left: 3rem;
+}
+
+.logo-link {
+    font-size: large;
+    font-style: italic;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-links {
+    margin-right: 3rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    text-align: center;
+    color: gray;
+    font-size: large;
+    font-style: italic;
+}
+
+.background-img {
+    width: 90vw;
+
+}
+
+.nav-header {
+
+}
+
+.body-container {
+}
+
+.footer-container {
+}
