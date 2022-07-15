@@ -73,8 +73,13 @@ h2, h3 {
 }
 
 .paragraph {
-    margin: 0 0.6rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: large;
+    line-height: 1.75;
+    margin: 0 0.8rem;
 }
+
 
 .title {
     padding-bottom: 2rem;
@@ -96,12 +101,7 @@ h2, h3 {
 Home page
 #########################
 */
-.paragraph {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
-    font-size: large;
-    line-height: 1.75;
-}
+
 
 .nav-container {
     background-color: white;
@@ -177,9 +177,6 @@ Top 10 Artist page
     text-align: center;
 }
 
-.paragraph {
-    padding: 4rem;
-}
 
 .center-artist-img {
     display: flex;
