@@ -185,6 +185,26 @@ Top 10 Artist page
     align-items: center;
 }
 
+.artist-links {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1.5rem;
+}
+
+.spotify, .apple{
+   margin-top: 0.5rem;
+   height: 50px;
+   width: 50px;
+}
+ .apple {
+    margin-left: 2rem;
+ }
+ 
+ .spotify {
+    margin-right: 2rem;
+ }
+
+
 
 @media screen and (min-width:1000px){
    .artist-img {
