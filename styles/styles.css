@@ -207,6 +207,17 @@ Top 10 Artist page
 
 
 @media screen and (min-width:1000px){
+    .artist-links {
+        display: flex;
+        flex-direction: column;
+    }
+    .apple, .spotify {
+        margin-left: 0;
+        margin-right: 0;
+        height: 30px;
+        width: 30px;
+    }
+
    .artist-img {
     border: 1px solid gray;
     margin-bottom: 1rem;
