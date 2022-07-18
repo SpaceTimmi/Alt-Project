@@ -261,6 +261,10 @@ Album page
     text-align: center;
 }
 
+.artist-links-album-page {
+    text-align: center;
+}
+
 .album-cover {
     height: auto;
     width: 60%;
