@@ -247,3 +247,24 @@ Top 10 Artist page
     margin-bottom: -0.5rem;
    }
 }
+
+/*
+#########################
+Album page
+#########################
+*/
+.album-name {
+    margin-top: 10rem;
+}
+
+.album-name, .iden {
+    text-align: center;
+}
+
+.album-cover {
+    height: auto;
+    width: 60%;
+    border-radius: 50%;
+    margin-left: 20%;
+    border: 5px solid darkslategrey;
+}
