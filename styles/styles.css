@@ -272,3 +272,25 @@ Album page
     margin-left: 20%;
     border: 5px solid darkslategrey;
 }
+
+@media screen and (min-width:1000px){
+ .album-cover {
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-left: 35%;
+ }
+
+ .artist-links-album-page {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+ }
+
+ .album-name{
+    margin-top: 5rem;
+ }
+
+}
