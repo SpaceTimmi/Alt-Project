@@ -375,3 +375,7 @@ About page
     text-transform: capitalize;
     display: inline-block;
 }
+
+.btn:hover {
+    background-color: black;
+}
