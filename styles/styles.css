@@ -81,6 +81,8 @@ h2, h3 {
 }
 
 
+
+
 .title {
     padding-bottom: 2rem;
 }
@@ -293,4 +295,19 @@ Album page
     margin-top: 5rem;
  }
 
+}
+
+
+/*
+#########################
+About page
+#########################
+*/
+
+.list-report {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    font-size: large;
+    line-height: 1.75;
+    margin: 0.5 0.8rem;
 }
