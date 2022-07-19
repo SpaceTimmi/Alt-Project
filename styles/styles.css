@@ -80,8 +80,35 @@ h2, h3 {
     margin: 0.5 0.8rem;
 }
 
+.navi-btn {
+    height: 50%;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    background: gray;
+    border: transparent;
+    border-radius: 2rem;
+    padding: 0.375rem 0.75rem;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+@media screen and (min-width:1000px) {
+    .navi-btn {
+        height: 30%;
+        width: 20%;
+    }
+    .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 
+.navi-btn:hover {
+    background: black;
+    background-color: black;
+}
 
 .title {
     padding-bottom: 2rem;
